@@ -4,7 +4,7 @@ function Navigation() {
   return (
     <nav style={{ 
       padding: '1rem 2rem', 
-      backgroundColor: '#000', 
+      backgroundColor: '#0a0a0a', 
       marginBottom: '0',
       borderBottom: '1px solid #333',
       display: 'flex',
@@ -64,6 +64,18 @@ function Navigation() {
             fontFamily: 'system-ui, -apple-system, sans-serif'
           }}>
             Contact
+          </Link>
+        </li>
+        <li>
+          <Link to="/pdf-parser" style={{ 
+            textDecoration: 'none', 
+            color: '#FFD54F', 
+            fontWeight: '600',
+            fontSize: '15px',
+            transition: 'color 0.2s ease',
+            fontFamily: 'system-ui, -apple-system, sans-serif'
+          }}>
+            Analysis
           </Link>
         </li>
       </ul>

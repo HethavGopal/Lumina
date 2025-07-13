@@ -3,6 +3,7 @@ import App from './App';
 import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
+import PDFParser from './components/PDFParser';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />
+      },
+      {
+        path: "/pdf-parser",
+        element: <PDFParser />
       }
     ]
   }
